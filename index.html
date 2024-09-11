@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://ssc.prodemge.gov.br/ssc-idp-frontend/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Sistema de Segurança Corporativo | SSC</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="theme-color" content="#3F729B">
+<meta name="description" content="O SSC é a solução de acesso único desenvolvida para o Estado de Minas Gerais pela PRODEMGE.">
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/zk.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/zul.lang.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/zkbind.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/zuljsp.js.transferir" charset="UTF-8"></script>
+<!-- ZK 8.0.4.1 EE 2017012412 -->
+<link rel="icon" type="image/x-icon" href="https://ssc.prodemge.gov.br/ssc-idp-frontend/public/imagens/favicon.ico">
+<link href="https://ssc.prodemge.gov.br/ssc-idp-frontend/public/imagens/favicon.ico" rel="shortcut icon">
+<link rel="stylesheet" href="./Sistema de Segurança Corporativo _ SSC_files/login.css" media="all">
+<link rel="stylesheet" href="./Sistema de Segurança Corporativo _ SSC_files/custom.css" media="all">
+<link rel="stylesheet" href="./Sistema de Segurança Corporativo _ SSC_files/main.css" media="all">
+<style type="text/css">#signa-overlay {
+	position: absolute;
+	z-index: 16777270;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	display: none;
+}
+
+#signa-content {
+	color: #555;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 0.9em;
+	width: 425px;
+	height: auto;
+	padding: 30px;
+	display: none;
+	background: #FFF;
+	text-align: center;
+	border-radius: 1px;
+}
+
+.signa-content__logo {
+		display: 	block;
+		margin: 	0 auto;
+		width: 40%;
+		margin-bottom: 20px;
+	margin-top: 10px;
+		opacity: 0.8;
+}
+
+.signa-content__info {
+	padding: 10px;
+}
+#countdown {
+	font-size: 0.8em;
+}
+
+.modal_close {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	display: block;
+	width: 14px;
+	height: 14px;
+	color:#929292;
+	text-decoration:none;
+	z-index: 16777271;
+}.modal_close:hover{color:#000;
+	text-decoration:none;}</style><script type="text/javascript" charset="UTF-8" src="./Sistema de Segurança Corporativo _ SSC_files/zul.wnd.wpd"></script><script type="text/javascript" charset="UTF-8" src="./Sistema de Segurança Corporativo _ SSC_files/zul.utl.wpd"></script><script type="text/javascript" charset="UTF-8" src="./Sistema de Segurança Corporativo _ SSC_files/zhtml.wpd"></script><script type="text/javascript" charset="UTF-8" src="./Sistema de Segurança Corporativo _ SSC_files/zul.inp.wpd"></script><script type="text/javascript" charset="UTF-8" src="./Sistema de Segurança Corporativo _ SSC_files/zk.fmt.wpd"></script></head>
+<body class="webkit chrome breeze" style="">
+<div id="y47F_" style="width:100%;height:100%;" class="z-page"><div id="y47F0" class="tempVertical login bg-white z-window z-window-noborder z-window-noheader z-window-embedded"><div id="y47F0-cave" class="z-window-content"><div id="y47F1" class="z-div"> <div id="y47F2" class="navbar navbar-expand"><div id="y47F3" style="display:none" class="z-div"></div> <div id="y47F5" class="navbar-brand"></div> <div id="y47F6" class="barra-usuario ml-auto"> <ul id="y47F7" class="navbar-nav"> <div id="y47F8" style="display:none" class="mostrarCadastro"></div> <li zclass="pr-1"> <a href="https://ssc.prodemge.gov.br/ssc-idp-frontend/resources/acessibilidade.html" id="acessibilidade"><i class="fas fa-universal-access"></i>Acessibilidade</a> </li> <li> <button type="button" id="y47Fj" class="btn-contrast"><i class="fas fa-adjust"></i> </button> </li> <li> <button type="button" id="y47Fm" class="decrease-font">A</button> <button type="button" id="y47Fo" class="increase-font">A+</button> </li> </ul></div></div> <div id="y47Fp" class="form__logo"> <img id="y47Fq" class="img-fluid" src="./Sistema de Segurança Corporativo _ SSC_files/LOGO_APLICACAO.png"></div> <div id="y47Fr" class="z-div"><div id="y47Fs" style="display:none" class="z-window z-window-noborder z-window-embedded"></div><div id="y47Fx" style="display:none" class="login__main z-div"></div> <div id="y47F70" class="login__main"> <div id="y47F80" class="login__modulo"><div id="y47F90" style="display:none" class="well danger fadeInUp login__well"></div> <div id="y47Fb0" class="card form"> <div id="y47Fc0" class="z-div"> <form id="y47Fd0" method="post" action="https://ssc.prodemge.gov.br/ssc-idp-frontend/j_security_check" class="loginFormSubmit"> <input id="isIFrame" name="isIFrame" type="hidden"> <input id="baseURI" name="baseURI" type="hidden"> <div id="y47Fe0" class="form-group"> <span id="y47Ff0" class="form__label changefont">CPF</span> <input id="y47Fg0" class="j_username form__input z-textbox" value="" type="text" maxlength="15" name="j_username" placeholder="Digite seu CPF" required="required"></div> <div id="y47Fi0" class="form-group"> <span id="y47Fj0" class="form__label changefont">Senha</span> <div id="y47Fk0" class="eyebox"> <input id="y47Fl0" class="j_password form__input z-textbox" value="" type="password" name="j_password" placeholder="Digite sua senha" required="required"> <i id="y47Fm0" class="fas fa-eye-slash passeye" onmousedown="mouseDown()" onmouseup="mouseUp()" onmousemove="mouseMove()"></i></div> <div id="y47Fn0" class="z-div"> <div id="y47Fo0" class="row"><div id="y47Fp0" style="display:none" class="col-5 text-left"></div> <div id="y47Fs0" class="col"> <a id="linkEsqueceuSenha" href="https://ssc.prodemge.gov.br/ssc-idp-frontend/recuperacaosenha/solicitacaorecuperacaosenha.zul" class="form__link_pass changefont">Esqueceu sua senha?</a></div></div></div></div> <div id="y47Fv0" style="display:none" class="form-group"></div> <div id="y47Fy0" class="form-group"> <button type="button" id="y47Fz0" style="display:none;" class="loginButtonHidden btn-tema form__btn form__certificado z-button"></button> <button type="button" id="y47F_1" class="btn-tema form__btn">ENTRAR</button> <div id="y47F01" class="row"> <div id="y47F11" class="col-4 testebruno"></div></div></div> </form></div> <span id="y47F21" style="display:none;" class="form__text-muted mt-5">Essa aplicação não pode ser acessada por dispositivos mobile.</span></div> <div id="y47F31" class="container-other-id"> <div id="y47F41" class="z-div"> <p id="y47F51" class="other-option changefont">Outras opções de identificação:</p></div> <div id="y47F61" class="z-div"> <ul id="y47F71" zclass="ul-login"> <li zclass="list-login"> <button type="button" id="y47F91" class="btn btn-gov-br z-button">Entrar com <img class="z-button-image" src="./Sistema de Segurança Corporativo _ SSC_files/govbr.png"></button> </li> <li zclass="list-login"> <div id="y47Fc1" class="card optLogar"><div id="y47Fd1" class="optLogar__toggle" onclick="alternarTela()">
+
+						<button type="button" id="y47Ff1" class="button-CD z-button"><img class="z-button-image" src="./Sistema de Segurança Corporativo _ SSC_files/CD.png"> Entrar com certificado digital</button>
+					</div> <span id="y47Fh1" class="z-span"> <i class="optLogar__close fas fa-times" onclick="alternarTela()" id="closeX"></i></span> <div id="y47Fj1" class="optLogar__delay optLogar__delay--1"> <img id="y47Fk1" class="optLogar__img  z-image" src="./Sistema de Segurança Corporativo _ SSC_files/tokem_cartao.png"></div> <div id="y47Fl1" class="optLogar__delay optLogar__delay--2"> <button type="button" id="y47Fm1" class="btn btn-danger w-100 btn-certificado">Acesse via Certificado Digital</button></div> <div id="y47Fn1" class="optLogar__delay optLogar__delay--3 mt-3"> <a id="y47Fo1" class="text-white z-a" target="_blank" href="https://wwws.prodemge.gov.br/certificacaodigital/">
+							Obtenha o seu <i id="y47Fp1" class="fas fa-download"></i></a></div><hr id="y47Fq1" class="optLogar__delay optLogar__delay--4 d-none"> <div id="y47Fr1" class="optLogar__delay optLogar__delay--4 d-none"> <button type="button" id="y47Fs1" class="btn-success form__btn btn-gov-br z-button">GOV BR</button></div></div> </li> </ul></div> <hr id="y47Ft1" style="border: 2px solid rgba(0, 0, 0, 0.062)"> <div id="y47Fu1" class="help-block z-div"> <ul id="y47Fv1" class="homologacao" role="list"> <li zclass="help-list"> <a id="linkAjuda" href="https://ssc.prodemge.gov.br/ssc-idp-frontend/public/ajuda.zul" class="form__link changefont"><i class="fas fa-question-circle"></i> Ajuda</a> </li> <li zclass="help-list"> <a id="linkUsuarioBloqueado" href="https://ssc.prodemge.gov.br/ssc-idp-frontend/desbloqueiousuario/solicitacaodesbloqueiousuario.zul" class="form__link changefont"><i class="fas fa-user-lock"></i> Usuário Bloqueado?</a> </li> </ul></div></div></div></div></div></div><div id="y47Fw1" style="display:none" class="popupInterno z-window z-window-noborder z-window-noheader z-window-embedded"></div></div></div></div>
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/jquery-3.3.1.min.js.transferir">
+</script>
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/jquery.mask.js.transferir">
+</script>
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/jquery.autotab-1.1b.js.transferir">
+</script>
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/jquery.priceformat.min.js.transferir">
+</script>
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/mascara.js.transferir">
+</script>
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/libs.js.transferir">
+</script>
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/core.js.transferir">
+</script>
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/RecuperaInformacoesUsuario.js.transferir">
+</script>
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/main.js.transferir">
+</script>
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/signa.js.transferir">
+</script>
+
+<script type="text/javascript" src="./Sistema de Segurança Corporativo _ SSC_files/login.js.transferir">
+</script>
+
+
+<noscript>
+<div class="noscript"><p>Sorry, JavaScript must be enabled.<br/>Change your browser options, then <a href="">try again</a>.</p></div>
+</noscript>
+
+
+
+<div id="signa-overlay"></div><div id="signa-content"></div></body></html>
